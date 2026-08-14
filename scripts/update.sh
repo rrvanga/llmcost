@@ -11,6 +11,7 @@ old="$(git show HEAD:data/prices.json 2>/dev/null | grep -v '"generated_at"' || 
 new="$(grep -v '"generated_at"' data/prices.json || true)"
 
 if [ "$old" = "$new" ]; then
+    git restore data/prices.json
     exit 0
 fi
 
