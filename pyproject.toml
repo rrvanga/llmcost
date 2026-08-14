@@ -1,0 +1,17 @@
+[project]
+name = "llmcost"
+version = "0.1.0"
+description = "Query LLM API pricing, context windows, and rate limits from a clean, open dataset."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+llmcost = "llmcost.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["llmcost"]
