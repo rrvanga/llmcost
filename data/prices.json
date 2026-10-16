@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T04:19:47.913842+00:00",
+  "generated_at": "2026-10-16T21:32:08.173631+00:00",
   "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "model_count": 3619,
+  "model_count": 3620,
   "models": [
     {
       "model": "j2-light",
@@ -50096,6 +50096,22 @@
       "supports_function_calling": false,
       "supports_reasoning": false,
       "supports_prompt_caching": false,
+      "supports_web_search": false,
+      "tpm": null,
+      "rpm": null
+    },
+    {
+      "model": "together_ai/reflection/Beam-1.0-501B-A23B",
+      "provider": "together_ai",
+      "input_usd_per_mtok": 0.4,
+      "output_usd_per_mtok": 1.2,
+      "max_input_tokens": 1048576,
+      "max_output_tokens": null,
+      "mode": "chat",
+      "supports_vision": false,
+      "supports_function_calling": true,
+      "supports_reasoning": false,
+      "supports_prompt_caching": true,
       "supports_web_search": false,
       "tpm": null,
       "rpm": null
