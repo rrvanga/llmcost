@@ -11,7 +11,7 @@ Every provider prices differently, caps contexts differently, and hides rate lim
 
 ## Why
 
-Pricing and limits change constantly, and they're scattered across every vendor's docs. `llmcost` normalizes ~1,500 models into a single schema and re-checks it daily. The data is a plain JSON file, so you can use it with `jq`, Python, a spreadsheet, or anything else — no SDK, no vendor lock-in.
+Pricing and limits change constantly, and they're scattered across every vendor's docs. `llmcost` normalizes 4,000+ models into a single schema and re-checks it daily. The data is a plain JSON file, so you can use it with `jq`, Python, a spreadsheet, or anything else — no SDK, no vendor lock-in.
 
 ## Install
 
@@ -56,7 +56,7 @@ Everything lives in [`data/prices.json`](data/prices.json):
   "schema_version": 1,
   "generated_at": "2026-08-14T00:00:00+00:00",
   "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "model_count": 1500,
+  "model_count": 4162,
   "models": [
     {
       "model": "deepseek-v4-flash",
